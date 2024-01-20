@@ -1,0 +1,89 @@
+* {
+  font-family: 'Poppins', sans-serif; /* Font gigamit */
+  font-weight: 300; /* kabagaon sa font */ 
+  text-decoration: none;
+} /* Meaning sa (*) kay all ma apply siya sa tanan bisag asa pana nga page */
+
+.container-about-us,
+.container-contact,
+.container-courses,
+.container-signup {
+  margin-top: 10px;
+  text-align: center; /* Horizontally center the content */
+} /* kani para ma center ang LOGO ug title every pages */
+
+a{
+  text-decoration: none !important; /* tanan anchor tag kay ma hide ang underline */
+  color: #f5f4ac;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: url('./images/school.jpg'); /* Replace 'your-image-url.jpg' with the actual path to your image */
+  background-size: cover; /* Adjust as needed */
+  background-attachment: fixed;
+  filter: brightness(50%);
+  z-index: -1; /* Ensure the overlay is behind the content */
+}
+
+footer {
+  color: white;
+}
+
+.offcanvas {
+  width: 70% !important;
+}
+
+.course-card img {
+  object-fit: cover;
+  height: 300px;
+}
+
+.avatar {
+  border-radius: 50%;
+} /* kabalo naka ani*/
+
+.small {
+  font-size: small;
+} /*resize the font*/
+
+
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} /* akong ge resize ang height every images sa carousel para ma same size silang tanan like kanang height dapat 500px ra !important mean kana ang ma execute except sa laing styling dayun width 100% ang kalapad */
+
+/* Courses page */
+.img-courses,
+.img-about {
+  object-fit: cover; /* para di mo cute tan awon dapat same quality og original picture*/
+  max-height: 300px; /*ge adjust nako ang height para same sila*/
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  padding: 25px;
+  border-radius: 50%;
+}
+
+.carousel-inner {
+  display: flex;
+  
+  align-items: center;
+}
+
+.carousel-item {
+  text-align: center;
+}

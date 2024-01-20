@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet" >
+  <link rel="stylesheet" href="./font-awesome/css/all.min.css">
+  <script src="./font-awesome/js/all.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <title>TCC Student Portal</title>
+</head>
+
+<header>
+  <!-- Start of Navigation Bar -->
+  <div class="border-bottom">
+      <div class="py-4">
+          <div class="container">
+              <div class="row w-100 align-items-center gx-lg-2 gx-0">
+                  <div class="col col-xxl-3 col-lg-3">
+                      <a asp-page="Index" class="navbar-brand d-none d-lg-block">
+                          <img src="./images/logo1.jpg" width="60px" class="avatar" />
+                          <img src="./images/logo2.jpg" width="60px" class="avatar">
+                      </a>
+                      <div class="d-flex justify-content-between w-100 d-lg-none">
+                          <a class="navbar-brand" href=".#">
+                            <img src="./images/logo1.jpg" width="60px" class="avatar" />
+                            <img src="./images/logo2.jpg" width="60px" class="avatar">
+                            <div class="col text-center">
+                              <a class="navbar-brand" href="#">
+                                <h2 class="fw-bold text-white">
+                                  TALISAY CITY COLLEGE
+                                  <p class="fw-light small text-white">VII Garces St. Poblacion Talisay, Philippines 6045</p>
+                                </h5>
+                              </a>
+                            </div>
+                          </a>
+                          <div class="d-flex align-items-center">
+                              <div class="list-inline ">
+                                  <!-- Collapse Button / Menu Bar Icon -->
+                                  <div class="list-inline-item">
+                                    <button class="navbar-toggler collapsed" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbar-default" aria-controls="navbar-default" aria-label="Toggle navigation">
+                                      <i class="fa-solid fa-bars text-white"></i>
+                                    </button>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class=" col-6 d-none d-lg-block">
+                    <div class="col text-center">
+                      <a class="navbar-brand" href="#">
+                        <h2 class="fw-bold text-white">
+                          TALISAY CITY COLLEGE
+                          <p class="fw-light small text-white">VII Garces St. Poblacion Talisay, Philippines 6045</p>
+                        </h5>
+                      </a>
+                    </div>
+                  </div>   
+
+                  <!--  -->
+                  <div class="icons col col-xxl-3  text-end d-none d-lg-block">
+                      <div class="list-inline">
+                          <!--  -->
+                          <div class="list-inline-item me-5">
+                              
+                          </div>
+                          <!--  -->
+                          <div class="list-inline-item me-5">
+                            
+                          </div>
+                          <!--  -->
+                          <div class="list-inline-item me-5">
+                            
+                          </div>
+                          <!--  -->
+                          <div class="list-inline-item me-5">
+                            <a href="./pages/login.html" class="btn btn-warning btn-sm disabled">Login</a>
+                            <a href="./pages/signup.html" class="btn btn-danger btn-sm disabled">Signup</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <!--Start of Offcanvas Left -->
+      <nav class="offcanvas-navbar navbar navbar-expand-lg navbar-light  py-0 pb-lg-4 " aria-label="Offcanvas navbar large">
+          <div class="container">
+              <div class="offcanvas offcanvas-start" tabindex="-1" id="navbar-default" aria-labelledby="navbar-defaultLabel" style="background-color: #65451fff;">
+                  <div class="offcanvas-header pb-1">
+                      <a href="#">
+                        <img src="./images/logo1.jpg" width="60px" class="avatar" />
+                        <img src="./images/logo2.jpg" width="60px" class="avatar">
+                        <a href="./pages/login.html">
+                          <button class="btn btn-warning btn-sm disabled">Login</button>
+                        </a>
+                        <a href="./pages/signup.html">
+                          <button class="btn btn-danger btn-sm disabled">Sign up</button>
+                        </a>
+                      </a>
+                      <i type="button" class="fa-solid fa-x text-white" data-bs-dismiss="offcanvas" aria-label="Close"></i>
+                  </div>
+                  <div class="offcanvas-body">
+                      <div>
+                        <ul class="navbar-nav align-items-center ">
+                            <li class=" dropdown w-100 w-lg-auto">
+                                <a href="#" class="nav-link text-white" role="button">
+                                    Home
+                                </a>
+                            </li>
+                            <li class=" dropdown w-100 w-lg-auto">
+                                <a href="#" class="nav-link text-white" role="button">
+                                    About
+                                </a>
+                            </li>
+                            <li class=" dropdown w-100 w-lg-auto">
+                              <a href="#" class="nav-link text-white" role="button">
+                                  Courses
+                              </a>
+                            </li>
+                            <li class=" dropdown w-100 w-lg-auto">
+                              <a href="#" class="nav-link text-white" role="button">
+                                  Contact
+                              </a>
+                            </li>
+                        </ul>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </nav>
+      <!-- End of Offcanvas Left-->
+  </div>
+  <!-- End of Navigation Bar -->
+</header>
+
+<!--START OF BODY-->
+<body>
+  <div class="container mt-5">
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <div class=" carousel-item active border border-warning border-1 rounded-3">
+          <img src="./images/harvininthehouse.jpg" class="object-fit-fill border rounded-3">
+        </div>
+        <div class="carousel-item border border-warning border-1 rounded-3">
+          <img src="./images/naningnabata.jpg" class="object-fit-fill border rounded-3">
+        </div>
+        <div class="carousel-item border border-warning border-1 rounded-3">
+          <img src="./images/mitchxcliff.jpg" class="object-fit-fill border rounded-3">
+        </div>
+        <div class="carousel-item border border-warning border-1 rounded-3">
+          <video controls>
+            <source src="./images/cudlewithhaha.mp4" type="video/mp4" class="object-fit-fill border rounded-3">
+          </video>
+        </div>
+        <div class="carousel-item border border-warning border-1 rounded-3">
+          <video controls>
+            <source src="./images/pakboisatcc.mp4" type="video/mp4" class="object-fit-fill border rounded-3">
+          </video>
+        </div>
+        <div class="carousel-item border border-warning border-1 rounded-3">
+          <video controls>
+            <source src="./images/tinurbosiindae.mp4" type="video/mp4" class="object-fit-fill border rounded-3">
+          </video>
+        </div>
+        <div class="carousel-item border border-warning border-1 rounded-3">
+          <video controls>
+            <source src="./images/nisudra.mp4" type="video/mp4" class="object-fit-fill border rounded-3">
+          </video>
+        </div>
+        <div class="carousel-item border border-warning border-1 rounded-3">
+          <img src="./images/matinoperobastos.jpg" class="object-fit-fill border rounded-3">
+        </div>
+        <div class="carousel-item border border-warning border-1 rounded-3">
+          <img src="./images/groupcutie.jpg" class="object-fit-fill border rounded-3">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <a href="./pages/login.html" class="btn btn-warning mt-4">Get Started</a>
+  </div>
+
+  <!--START OF FOOTER-->
+  <footer class="mt-5" style="background-color: #65451fff;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 mt-5">
+                <h3>Menu</h3>
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="#">
+                            Home 
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            About 
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Login 
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            FAQs 
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-4 mt-5">
+                <h3>Contact Us</h3>
+                <address>
+                    <p><i class="fas fa-map-marker-alt"></i> VII Garces St. Poblacion Talisay, Philippines 6045</p>
+                    <p><i class="fas fa-envelope"></i> tccstudentportal.com</p>
+                    <p><i class="fas fa-phone"></i> (123) 456-7890</p>
+                </address>
+            </div>
+            <div class="col-md-4 mt-5">
+                <h3 class="text-white">Follow Us</h3>
+                <ul class="list-inline">
+
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <p>&copy; 2023 TCC student portal. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--END OF FOOTER-->
+
+<script src="./bootstrap/js/js/bootstrap.bundle.min.js"></script>
+</body>
+<!--END OF BODY-->
+</html>

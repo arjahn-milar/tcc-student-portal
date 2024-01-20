@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet" >
+  <link rel="stylesheet" href="../font-awesome/css/all.min.css">
+  <script src="../font-awesome/js/all.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+  <title>TCC Portal | About page</title>
+</head>
+
+<header>
+  <!-- Start of Navigation Bar -->
+  <div class="border-bottom">
+      <div class="navbar1 py-4">
+          <div class="container-lg">
+              <div class="row w-100 align-items-center gx-lg-2 gx-0">
+                  <div class="col col-xxl-3 col-lg-3">
+                      <a asp-page="Index" class="navbar-brand d-none d-lg-block">
+                          <img src="../images/logo1.jpg" width="60px" class="avatar" />
+                          <img src="../images/logo2.jpg" width="60px" class="avatar">
+                      </a>
+                      <div class="d-flex justify-content-between w-100 d-lg-none">
+                          <a class="navbar-brand" href=".#">
+                            <img src="../images/logo1.jpg" width="60px" class="avatar" />
+                            <img src="../images/logo2.jpg" width="60px" class="avatar">
+                            <div class="col text-center">
+                              <a class="navbar-brand" href="#">
+                                <h2 class="fw-bold text-white">
+                                  TALISAY CITY COLLEGE
+                                  <p class="fw-light small text-white">VII Garces St. Poblacion Talisay, Philippines 6045</p>
+                                </h5>
+                              </a>
+                            </div>
+                          </a>
+                          <div class="d-flex align-items-center">
+                              <div class="list-inline ">
+                                  <!-- Collapse Button / Menu Bar Icon -->
+                                  <div class="list-inline-item">
+                                    <button class="navbar-toggler collapsed" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbar-default" aria-controls="navbar-default" aria-label="Toggle navigation">
+                                      <i class="fa-solid fa-bars text-white"></i>
+                                    </button>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class=" col-6 d-none d-lg-block">
+                    <div class="col text-center">
+                      <a class="navbar-brand" href="#">
+                        <h2 class="fw-bold text-white">
+                          TALISAY CITY COLLEGE
+                          <p class="fw-light small text-white">VII Garces St. Poblacion Talisay, Philippines 6045</p>
+                        </h5>
+                      </a>
+                    </div>
+                  </div>
+
+                  <!--  -->
+                  <div class="col col-xxl-3  text-end d-none d-lg-block">
+                      <div class="list-inline">
+                          <!--  -->
+                          <div class="list-inline-item">
+                            
+                          </div>
+                          <!--  -->
+                          <div class="list-inline-item ">
+                            <a href="./login.html" class="btn btn-warning btn-sm">Log out</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <!--Start of Offcanvas Left -->
+      <nav class="offcanvas-navbar navbar navbar-expand-lg navbar-light  py-0 pb-lg-4 " aria-label="Offcanvas navbar large">
+          <div class="container-lg">
+              <div class="offcanvas offcanvas-start" tabindex="-1" id="navbar-default" aria-labelledby="navbar-defaultLabel" style="background-color: #65451fff;">
+                  <div class="offcanvas-header pb-1">
+                      <a href="#">
+                        <img src="../images/logo1.jpg" width="60px" class="avatar" />
+                        <img src="../images/logo2.jpg" width="60px" class="avatar">
+                        <a href="./login.html" class="btn btn-warning btn-sm">Log out</a>
+                      </a>
+                      <i type="button" class="fa-solid fa-x text-white" data-bs-dismiss="offcanvas" aria-label="Close"></i>
+                  </div>
+                  <div class="offcanvas-body">
+                      <div>
+                        <ul class="navbar1 navbar-nav align-items-center ">
+                            <li class=" dropdown w-100 w-lg-auto">
+                                <a href="../pages/dashboard.html" class="nav-link text-white" role="button">
+                                    Home
+                                </a>
+                            </li>
+                            <li class=" dropdown w-100 w-lg-auto">
+                                <a href="../pages/about.html" class="nav-link text-white" role="button">
+                                    About
+                                </a>
+                            </li>
+                            <li class=" dropdown w-100 w-lg-auto">
+                              <a href="../pages/courses.html" class="nav-link text-white" role="button">
+                                  Courses
+                              </a>
+                            </li>
+                            <li class=" dropdown w-100 w-lg-auto">
+                              <a href="../pages/contact.html" class="nav-link text-white" role="button">
+                                  Contact
+                              </a>
+                            </li>
+                        </ul>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </nav>
+      <!-- End of Offcanvas Left-->
+  </div>
+  <!-- End of Navigation Bar -->
+</header>
+<body>
+  <div class="container-lg">
+    <div class="container-about-us">
+      <img src="../images/logo1.jpg" class="avatar text-center d-inline mb-3" width="100px">
+    <h2 class="text-white">ABOUT US</h2>
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card border-warning bg-warning">
+          <img src="../images/laurence.jpg" class="img-about">
+          <div class="card-body">
+            <h5 class="card-title">Laurence Keith Mejos</h5>
+            <p class="d-inline-flex gap-1">
+              <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseLaurenceAchievement" role="button" aria-expanded="false" aria-controls="collapseExample">
+                Achievements/Role:
+              </a>
+            </p>
+            <div class="collapse" id="collapseLaurenceAchievement">
+              <div class="card card-body">
+                <p>Officially a SK Kons in Linao-Lipata</p>
+                <p>Reached a Mythical Immortal</p>
+                <p>One of the Albatoterz</p>
+                <p>Got a pretty GF her name is ... haha</p>
+                <p>A Frondend/Backend Devs</p>
+                <p>Former hacker sa buhay mo</p>
+                <p>Zoan type devil prot user</p>
+                <p>Former crew of Rumbar pirates</p>
+                <p>Can draw you in just 5mins</p>
+                <p>Handang lumaban sa hamon ng buhay</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card border-warning bg-warning">
+          <img src="../images/groupmate1.jpg" class="img-about">
+          <div class="card-body">
+            <h5 class="card-title">Contestant number one</h5>
+            <p class="d-inline-flex gap-1">
+              <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseNumOneAchievement" role="button" aria-expanded="false" aria-controls="collapseExample">
+                Achievements/Role:
+              </a>
+            </p>
+            <div class="collapse" id="collapseNumOneAchievement">
+              <div class="card card-body">
+                <p>Modelist</p>
+                <p>Deans' lister</p>
+                <p>Cutie pie! Picachu mode!</p>
+                <p>Much pretty</p>
+                <p>Peace out</p>
+                <p>Taken</p>
+                <p>etc.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card border-warning bg-warning">
+          <img src="../images/groupmate2.jpg" class="img-about">
+          <div class="card-body">
+            <h5 class="card-title">Contestant number two</h5>
+            <p class="d-inline-flex gap-1">
+              <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseNumTwoAchievement" role="button" aria-expanded="false" aria-controls="collapseExample">
+                Achievements/Role:
+              </a>
+            </p>
+            <div class="collapse" id="collapseNumTwoAchievement">
+              <div class="card card-body">
+                <p>Igop sa TCC</p>
+                <p>Cute</p>
+                <p>Member sa thumbs up guys!</p>
+                <p>Taken</p>
+                <p>etc.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card border-warning bg-warning">
+          <img src="../images/groupmate3.jpg" class="img-about">
+          <div class="card-body">
+            <h5 class="card-title">Contestant number three</h5>
+            <p class="d-inline-flex gap-1">
+              <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseNumThreeAchievement" role="button" aria-expanded="false" aria-controls="collapseExample">
+                Achievements/Role:
+              </a>
+            </p>
+            <div class="collapse" id="collapseNumThreeAchievement">
+              <div class="card card-body">
+                <p>Cute</p>
+                <p>Dark skin pero matinong bata</p>
+                <p>Dimple geng ten</p>
+                <p>Clifford nga gamay</p>
+                <p>etc.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card border-warning bg-warning">
+          <img src="../images/groupmate4.jpg" class="img-about">
+          <div class="card-body">
+            <h5 class="card-title">Contestant number four</h5>
+            <p class="d-inline-flex gap-1">
+              <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseNumFourAchievement" role="button" aria-expanded="false" aria-controls="collapseExample">
+                Achievements/Role:
+              </a>
+            </p>
+            <div class="collapse" id="collapseNumFourAchievement">
+              <div class="card card-body">
+                <p>Cute</p>
+                <p>Simile para pasko</p>
+                <p>Magandang dilag</p>
+                <p>Pumaparaan si ate Sheeesh</p>
+                <p>etc.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card border-warning bg-warning">
+          <img src="../images/groupmate5.jpg" class="img-about">
+          <div class="card-body">
+            <h5 class="card-title">Contestant number five</h5>
+            <p class="d-inline-flex gap-1">
+              <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseNumFiveAchievement" role="button" aria-expanded="false" aria-controls="collapseExample">
+                Achievements/Role:
+              </a>
+            </p>
+            <div class="collapse" id="collapseNumFiveAchievement">
+              <div class="card card-body">
+                <p>El presidente</p>
+                <p>Killer smile</p>
+                <p>Ikaw ba yan boss fred?</p>
+                <p>Peace in</p>
+                <p>Igop mo naman lods, skin care reveal</p>
+                <p>Etc.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!--START OF FOOTER-->
+  <footer class="mt-5" style="background-color: #65451fff;">
+    <div class="container-lg">
+        <div class="row">
+            <div class="col-md-4 mt-5">
+                <h3>Menu</h3>
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="#">
+                            Home 
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            About 
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Login 
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            FAQs 
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-4 mt-5">
+                <h3>Contact Us</h3>
+                <address>
+                    <p><i class="fas fa-map-marker-alt"></i> VII Garces St. Poblacion Talisay, Philippines 6045</p>
+                    <p><i class="fas fa-envelope"></i> tccstudentportal.com</p>
+                    <p><i class="fas fa-phone"></i> (123) 456-7890</p>
+                </address>
+            </div>
+            <div class="col-md-4 mt-5">
+                <h3 class="text-white">Follow Us</h3>
+                <ul class="list-inline">
+
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <p>&copy; 2023 TCC student portal. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--END OF FOOTER-->
+<script src="../bootstrap/js/js/bootstrap.min.js"></script>
+</body>
+</html>

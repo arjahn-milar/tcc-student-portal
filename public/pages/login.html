@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet" >
+  <link rel="stylesheet" href="../font-awesome/css/all.min.css">
+  <script src="../font-awesome/js/all.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+  <title>TCC Portal | Login page</title>
+</head>
+
+<header>
+  <!-- Start of Navigation Bar -->
+  <div class="border-bottom">
+      <div class="navbar1 py-4">
+          <div class="container">
+              <div class="row w-100 align-items-center gx-lg-2 gx-0">
+                  <div class="col col-xxl-3 col-lg-3">
+                      <a asp-page="Index" class="navbar-brand d-none d-lg-block">
+                          <img src="../images/logo1.jpg" width="60px" class="avatar" />
+                          <img src="../images/logo2.jpg" width="60px" class="avatar">
+                      </a>
+                      <div class="d-flex justify-content-between w-100 d-lg-none">
+                          <a class="navbar-brand" href=".#">
+                            <img src="../images/logo1.jpg" width="60px" class="avatar" />
+                            <img src="../images/logo2.jpg" width="60px" class="avatar">
+                            <div class="col text-center">
+                              <a class="navbar-brand" href="#">
+                                <h2 class="fw-bold text-white">
+                                  TALISAY CITY COLLEGE
+                                  <p class="fw-light small text-white">VII Garces St. Poblacion Talisay, Philippines 6045</p>
+                                </h5>
+                              </a>
+                            </div>
+                          </a>
+                          <div class="d-flex align-items-center">
+                              <div class="list-inline ">
+                                  <!-- Collapse Button / Menu Bar Icon -->
+                                  <div class="list-inline-item">
+                                    <button class="navbar-toggler collapsed" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbar-default" aria-controls="navbar-default" aria-label="Toggle navigation">
+                                      <i class="fa-solid fa-bars text-white"></i>
+                                    </button>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class=" col-6 d-none d-lg-block">
+                    <div class="col text-center">
+                      <a class="navbar-brand" href="#">
+                        <h2 class="fw-bold text-white">
+                          TALISAY CITY COLLEGE
+                          <p class="fw-light small text-white">VII Garces St. Poblacion Talisay, Philippines 6045</p>
+                        </h5>
+                      </a>
+                    </div>
+                  </div>
+
+                  <!--  -->
+                  <div class="col col-xxl-3  text-end d-none d-lg-block">
+                      <div class="list-inline">
+                          <!--  -->
+                          <div class="list-inline-item me-5">
+                              
+                          </div>
+                          <!--  -->
+                          <div class="list-inline-item me-5">
+                            
+                          </div>
+                          <!--  -->
+                          <div class="list-inline-item me-5">
+                            
+                          </div>
+                          <!--  -->
+                          <div class="list-inline-item me-5">
+
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <!--Start of Offcanvas Left -->
+      <nav class="offcanvas-navbar navbar navbar-expand-lg navbar-light  py-0 pb-lg-4 " aria-label="Offcanvas navbar large">
+          <div class="container">
+              <div class="offcanvas offcanvas-start" tabindex="-1" id="navbar-default" aria-labelledby="navbar-defaultLabel" style="background-color: #65451fff;">
+                  <div class="offcanvas-header pb-1">
+                      <a href="#">
+                        <img src="../images/logo1.jpg" width="60px" class="avatar" />
+                        <img src="../images/logo2.jpg" width="60px" class="avatar">
+                      </a>
+                      <i type="button" class="fa-solid fa-x text-white" data-bs-dismiss="offcanvas" aria-label="Close"></i>
+                  </div>
+                  <div class="offcanvas-body">
+                      <div>
+                        <ul class="navbar1 navbar-nav align-items-center ">
+                            <li class=" dropdown w-100 w-lg-auto">
+                                <a href="#" class="nav-link text-white" role="button">
+                                    Home
+                                </a>
+                            </li>
+                            <li class=" dropdown w-100 w-lg-auto">
+                                <a href="#" class="nav-link text-white" role="button">
+                                    About
+                                </a>
+                            </li>
+                            <li class=" dropdown w-100 w-lg-auto">
+                              <a href="#" class="nav-link text-white" role="button">
+                                  Courses
+                              </a>
+                            </li>
+                            <li class=" dropdown w-100 w-lg-auto">
+                              <a href="#" class="nav-link text-white" role="button">
+                                  Contact
+                              </a>
+                            </li>
+                        </ul>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </nav>
+      <!-- End of Offcanvas Left-->
+  </div>
+  <!-- End of Navigation Bar -->
+</header>
+
+<!--END OF HEADER-->
+<body>
+  <div class="container container-signup">
+    <img src="../images/logo1.jpg" class="avatar text-center d-inline mb-3" width="100px">
+    <h2 class="text-white">SIGN UP FORM</h2>
+  </div>
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="form-group form-floating p-0 col-12 mb-3">
+          <input type="number" class="form-control" id="floatingStudentNumber" placeholder="Student Number">
+          <label for="floatingStudentNumber">Student Number</label>
+        </div>
+        <div class="form-group form-floating p-0 col-12 mb-3">
+          <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+          <label for="floatingPassword">Password</label>
+        </div>
+        <div class="col-6">
+          <input type="checkbox" class="form-check-input p-2 mb-3">
+          <label class="fs-6 text-white ">Remember me</label>
+        </div>
+        <div class="col-5 mb-3">
+          <label class="fs-6 text-white  text-end">Forgot password?</label>
+        </div>
+      </div>
+      <div class=" mb-3">
+        <a type="button" class="btn btn-warning" href="./dashboard.html">Login</a>
+      </div>
+      <div class=" mb-3">
+        <h6 class="text-white">Don't have an account?</h6>
+      </div>
+      <div class=" mb-3">
+        <a href="./signup.html" class="btn btn-outline-danger fw-bold">Sign up here!</a>
+      </div>
+      
+    </div>
+    
+  </div>
+</body>
+<script src="../bootstrap/js/js/bootstrap.min.js"></script>
+</html>
